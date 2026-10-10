@@ -47,7 +47,7 @@ sudo apt update && sudo apt upgrade -y
 
 # Install Node.js 20.x
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt install -y nodejs
+n
 
 # Install Nginx and Certbot
 sudo apt install -y nginx certbot python3-certbot-nginx
