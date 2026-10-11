@@ -119,7 +119,7 @@ Paste the following (replace `yourdomain.com` with your actual domain):
 ```nginx
 server {
     listen 80;
-    server_name weather-app.borderlesstechacademy.com;
+    server_name weather-app.successlink.com.ng;
 
     location / {
         proxy_pass http://localhost:3000;
@@ -146,7 +146,7 @@ sudo systemctl reload nginx
 
 
 ```bash
-sudo certbot --nginx -d www.weather-app.borderlesstechacademy.com 
+sudo certbot --nginx -d www.weather-app.successlink.com.ng 
 ```
 
 Certbot will automatically update your Nginx config with SSL. Certificates auto-renew via a cron job installed by Certbot.
